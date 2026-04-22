@@ -1,0 +1,59 @@
+.
+├── run_app.py
+├── bad_image.png
+├── CHANGELOG.md
+├── checkpoints
+│   ├── best_model.pt
+│   └── modelo_completo.pth
+├── DataSet
+│   ├── annotations
+│   │   └── classes.txt
+│   ├── ExtraTests
+│   ├── images
+│   └── masks
+├── dice_history.png
+├── run_evaluate.py
+├── good_image.png
+├── __init__.py
+├── iou_history.png
+├── LICENSE
+├── model_card.md
+├── .huggingface
+│   └── model-index.yaml
+├── README.md
+├── report_file.txt
+├── requirements.txt
+├── scripts
+│   ├── config.py
+│   ├── Dataset
+│   │   ├── ConvertFormat.py
+│   │   ├── dataAugmentation.py
+│   │   ├── deleteDuplicates.py
+│   │   ├── getDS_HuggingFace.py
+│   │   ├── getImages.py
+│   │   ├── grays.py
+│   │   ├── __init__.py
+│   │   ├── mask_diagnosis.py
+│   │   ├── masks.py
+│   │   ├── Rename.py
+│   │   ├── Resize.py
+│   │   ├── TrainVal.py
+│   │   └── validMasks.py
+│   ├── __init__.py
+│   └── Segmentation
+│       ├── app.py
+│       ├── augment.py
+│       ├── diceLossCriterion.py
+│       ├── evaluate_model.py
+│       ├── flagged
+│       ├── focalLoss.py
+│       ├── Future
+│       ├── __init__.py
+│       ├── models.py
+│       ├── segDS.py
+│       └── train.py
+├── structure.txt
+├── training_loss.png
+└── training_val_accuracy.png
+
+13 directories, 10231 files

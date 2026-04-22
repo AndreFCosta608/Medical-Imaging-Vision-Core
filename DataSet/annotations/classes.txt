@@ -1,0 +1,2 @@
+0 - Fundo
+1 - Objeto
